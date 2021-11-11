@@ -49,6 +49,20 @@ enCopyBoard.addEventListener("click",function(e){
 	alert("Copied!");
 });
 
+// Clip board decrypt
+
+deCopyBoard.addEventListener("click",function(e){
+
+	e.preventDefault();
+
+       decryptResult.select();
+
+	document.execCommand('copy');
+
+	alert("Copied!");
+
+});
+
 
 // Decryption Function
 
