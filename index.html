@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Khalid Mujahid Zikirullah">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>JS Cryptography System</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="encrypt-box">
+			<div class="title">
+				<h1>Encrypt Message</h1>
+			</div>
+			<div class="encrypt-input">
+				<legend>Enter message:</legend>
+				<textarea id="encrypt-msg" placeholder="Enter a text...."></textarea>
+				<legend>Key</legend>
+				<input type="number" id="encrypt-key" placeholder="Enter key.."><br>
+				<button id="encrypt-btn">Encrypt</button>
+				<p>Result</p>
+				<textarea id="encrypt-result" readonly>
+				</textarea>
+				<button id="enc-clipborad">Copy text</button>
+			</div>
+		</div>
+		<div class="decrypt-box">
+				<div class="title">
+					<h1>Decrypt Message</h1>
+				</div>
+			<div class="decrypt-input">
+				<legend>Enter message:</legend>
+				<textarea id="decrypt-msg" placeholder="Enter a text...."></textarea>
+				<legend>Key</legend>
+				<input type="number" id="decrypt-key" placeholder="Enter key.."><br>
+				<button id="decrypt-btn">Decrypt</button>
+				<p>Result</p>
+				<textarea id="decrypt-result" readonly>
+				</textarea>
+				<button id="dec-clipborad">Copy text</button>
+			</div>
+		</div>
+	</div>
+
+  <script src="./main.js" defer></script>
+</body>
+</html>
